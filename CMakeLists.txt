@@ -3,4 +3,5 @@ project(gitFile C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(gitFile main.c)
+add_executable(gitFile main.c
+        constant.h)
